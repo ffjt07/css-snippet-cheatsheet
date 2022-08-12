@@ -50,7 +50,8 @@ h1 {
 .box {
     color: var(--text);
     font-size: 150%;
-    border: dashed var(--text);
+    border: solid var(--text);
+    border-radius: var(--bordrad);
 }
 /* Psuedo Here */
 
