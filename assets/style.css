@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --background: darkslategrey;
+    --text: #f0ffff;
+    --bordrad: 20px
+}
+
+/* Elements Here */
+body {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text);
+    position: fixed;
+    top: 0;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 1%;
+}
+
+/* Classes Here */
+.head-descr {
+    flex-wrap: wrap;
+    color: var(--text);
+    text-align: center;
+    margin: 5% 10%;
+}
+
+.css-boxes {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.box {
+    color: var(--text);
+    font-size: 150%;
+    border: dashed var(--text);
+}
+/* Psuedo Here */
+
+/* Media Here */
